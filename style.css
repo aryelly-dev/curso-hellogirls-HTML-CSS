@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+* p {
+    font-size: 16.5px;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+}
+
+#principal {
+    text-align: center;
+    padding: 10px;
+    background-color: blue;
+    color: blanchedalmond;
+
+}
+
+.introducao {
+    text-align: center;
+}
+
+.inicio {
+    background-color: aquamarine;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.sub {
+    display: inline-block;
+    background-color: rgba(121, 247, 205, 0.856);
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 15px;
+    margin: 3px;
+    padding: 5px;
+    line-height: 25px;
+}
+
+.lista {
+    margin: 40px;
+    line-height: 40px;
+}
